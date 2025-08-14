@@ -8,14 +8,14 @@ export const metadata: Metadata = {
         description: 'didn\'t have the actual image or video used, but check this out.',
         url: 'https://x-ui-to-code.vercel.app/lumen-coast',
         siteName: 'x Lumen Coast',
-        images: [
-          {
-            url: 'https://x-ui-to-code.vercel.app/_next/image?url=%2FScreenshot%202025-08-14%20at%2013.01.29.png&w=1080&q=75',
-            width: 1200,
-            height: 630,
-            alt: 'x Lumen Coast',
-          },
-        ],
+        // images: [
+        //   {
+        //     url: 'https://x-ui-to-code.vercel.app/_next/image?url=%2FScreenshot%202025-08-14%20at%2013.01.29.png&w=1080&q=75',
+        //     width: 1200,
+        //     height: 630,
+        //     alt: 'x Lumen Coast',
+        //   },
+        // ],
         type: 'website',
 	},
 }
