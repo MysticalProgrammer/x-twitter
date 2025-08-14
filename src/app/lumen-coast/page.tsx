@@ -66,7 +66,7 @@ export default function LumenHome() {
     }
   return (
     <>
-        <div className="ripple-container h-screen"
+        <div className="ripple-container h-screen overflow-hidden"
             style={{
                 backgroundImage: "url('https://cdn.pixelbin.io/v2/dummy-cloudname/EEM2O3/wrkr/original/619340761ca096a589ca891f/662751fc71363b0faee06b6c_High-Resolution%20Image%20Converter.avif')",
                 backgroundSize: "cover",
