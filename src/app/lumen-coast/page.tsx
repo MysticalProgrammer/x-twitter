@@ -13,8 +13,6 @@ import {
 // import $ from "jquery"
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Head from "next/head";
-
 
 export default function LumenHome() {
     const [play, setPlay] = useState(false);
@@ -68,15 +66,6 @@ export default function LumenHome() {
     }
   return (
     <>
-        <Head>
-            <title>Lumen Coast</title>
-            <meta name="description" content="didn't get the real video so i tried." />
-
-            <meta property="og:title" content="Lumen Coast" />
-            <meta property="og:description" content="didn't get the real video so i tried." />
-            <meta property="og:image" content="/Screenshot 2025-08-14 at 13.01.29.png" />
-            <meta property="og:type" content="website" />
-        </Head>
         <div className="ripple-container h-screen"
             style={{
                 backgroundImage: "url('https://cdn.pixelbin.io/v2/dummy-cloudname/EEM2O3/wrkr/original/619340761ca096a589ca891f/662751fc71363b0faee06b6c_High-Resolution%20Image%20Converter.avif')",
@@ -103,7 +92,7 @@ export default function LumenHome() {
                         </Select>
                         <Button className="glass-btn playfair-display">Gallery</Button>
                     </div>
-                    <div className="playfair-display font-bold text-[35px] leading-7 text-center text-white">
+                    <div className="playfair-display font-semibold text-[35px] leading-7 text-center text-white">
                         <p>Lumen</p>
                         <p>Coast</p>
                     </div>
